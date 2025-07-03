@@ -1,0 +1,214 @@
+/* Root Colors */
+:root {
+    --primary-pink: #E91E63;
+    --accent-purple: #9C27B0;
+    --light-pink: #FCE4EC;
+    --light-purple: #F3E5F5;
+    --text-dark: #333;
+}
+
+/* Body Gradient + Font */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--light-pink), var(--light-purple));
+    color: var(--text-dark);
+    font-family: 'Poppins', sans-serif;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-pink);
+}
+
+    .navbar .nav-link {
+        color: #fff;
+        transition: 0.3s;
+        position: relative;
+    }
+
+        .navbar .nav-link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #ffccde;
+            transition: width .3s;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        .navbar .nav-link:hover::after {
+            width: 100%;
+        }
+
+/* Card & Form Elements */
+.card, .form-control, .btn {
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(233, 30, 99, 0.2);
+}
+
+/* Buttons */
+.btn-pink {
+    background-color: var(--primary-pink);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .btn-pink:hover {
+        background-color: #d81b60;
+        transform: scale(1.05);
+    }
+
+.btn-purple {
+    background-color: var(--accent-purple);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .btn-purple:hover {
+        background-color: #7B1FA2;
+        transform: scale(1.05);
+    }
+
+/* Login Links */
+.login-links a {
+    color: var(--accent-purple);
+    text-decoration: none;
+}
+
+    .login-links a:hover {
+        text-decoration: underline;
+    }
+
+/* Hero Banner */
+.hero-banner-image {
+    background-image: url("/images/logo-banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #fffaf9;
+    min-height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 2rem;
+    position: relative;
+}
+
+.hero-overlay-text {
+    text-align: right;
+    max-width: 320px;
+    padding: 0.75rem 1rem;
+    animation: fadeInUp 1s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+}
+
+/* Gallery and Promotion Images */
+.card-img-top, .gallery-image, .promotion-image {
+    width: 100%;
+    height: auto; /* allow natural height */
+    object-fit: contain; /* show full image without cropping */
+    border-radius: 12px;
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--accent-purple);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+        background-color: var(--primary-pink);
+    }
+
+/* Footer */
+footer {
+    background: var(--primary-pink);
+    color: white;
+    padding: 1rem 0;
+}
+
+    footer a {
+        color: #fc8db5;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+/* Fade Animations */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .hero-banner-image {
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+    }
+
+    .hero-overlay-text {
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    .navbar .nav-link {
+        padding: 0.5rem 1rem;
+    }
+
+    .card-img-top, .gallery-image, .promotion-image {
+        max-height: 300px; /* optional limit for extreme tall images */
+    }
+
+    .container, .card, .btn {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    h1, h3, h5 {
+        font-size: 1.5rem;
+    }
+
+    p, label, input, select, button, span {
+        font-size: 1rem;
+    }
+}

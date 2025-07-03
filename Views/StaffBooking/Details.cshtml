@@ -1,0 +1,38 @@
+﻿@model AcrylicGame.Models.Booking
+
+@{
+    ViewData["Title"] = "Booking Details";
+}
+
+<div class="container my-5 fade-in">
+    <h1 class="text-center mb-4" style="color: var(--primary-pink);">Booking Details</h1>
+
+    <div class="card shadow-sm p-4">
+        <h5 class="fw-bold">Customer Info</h5>
+        <p><strong>Name:</strong> @Model.CustomerName</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Phone:</strong> @Model.Phone</p>
+
+        <h5 class="fw-bold mt-4">Booking Info</h5>
+        <p><strong>Service:</strong> @Model.ServiceDescription</p>
+        <p><strong>Branch:</strong> @Model.Branch?.Name</p>
+        <p><strong>Date:</strong> @Model.BookingDate.ToString("yyyy-MM-dd")</p>
+        <p><strong>Status:</strong> @Model.Status</p>
+
+        @if (!string.IsNullOrEmpty(Model.ProofOfPaymentPath))
+        {
+            <h5 class="fw-bold mt-4">Proof of Payment</h5>
+            <img src="@Model.ProofOfPaymentPath" alt="Proof of Payment" class="img-fluid rounded shadow-sm" />
+        }
+
+        <div class="mt-4">
+            <form asp-action="Confirm" asp-route-id="@Model.Id" method="post" class="d-inline">
+                <button type="submit" class="btn btn-pink">Confirm</button>
+            </form>
+            <form asp-action="Reject" asp-route-id="@Model.Id" method="post" class="d-inline">
+                <button type="submit" class="btn btn-secondary">Reject</button>
+            </form>
+            <a asp-action="Index" class="btn btn-outline-dark ms-2">Back to Bookings</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+﻿@page
+@model LogoutModel
+@{
+    ViewData["Title"] = "Log out";
+}
+
+<div class="container fade-in text-center mt-5">
+    <h1 class="display-5 fw-bold">See you again soon 💅</h1>
+
+    @if (User.Identity?.IsAuthenticated ?? false)
+    {
+        <form class="d-inline-block mt-4" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+            <button type="submit" class="btn btn-pink px-4 py-2">Logout</button>
+        </form>
+    }
+    else
+    {
+        <p class="text-muted mt-3">You have successfully logged out of the application.</p>
+        <a href="/" class="btn btn-outline-secondary mt-2">Return Home</a>
+    }
+</div>
+
+@section Scripts {
+    <style>
+        .btn-pink {
+            background-color: #E91E63;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+            .btn-pink:hover {
+                background-color: #c2185b;
+            }
+
+        .fade-in {
+            animation: fadeInUp 0.8s ease-in-out both;
+        }
+
+        @@keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+}

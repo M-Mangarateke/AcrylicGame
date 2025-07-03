@@ -1,0 +1,73 @@
+﻿@model IEnumerable<AcrylicGame.Models.Testimonial>
+
+@{
+    ViewData["Title"] = "Testimonials";
+}
+
+<div class="container my-5 fade-in">
+    <h1 class="text-center mb-4" style="color: var(--primary-pink);">What Our Clients Say</h1>
+
+    @* Success/Fail Messages *@
+    @if (TempData["Info"] != null)
+    {
+        <div class="alert alert-info text-center">@TempData["Info"]</div>
+    }
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success text-center">@TempData["Success"]</div>
+    }
+    @if (TempData["Warning"] != null)
+    {
+        <div class="alert alert-warning text-center">@TempData["Warning"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger text-center">@TempData["Error"]</div>
+    }
+
+    <form method="get" asp-action="Index" class="text-center mb-4">
+        <select name="branchId" class="form-select w-auto d-inline-block me-2">
+            <option value="">All Branches</option>
+            @foreach (var branch in ViewBag.Branches as SelectList)
+            {
+                var isSelected = ViewBag.SelectedBranchId != null && branch.Value == ViewBag.SelectedBranchId.ToString();
+                if (isSelected)
+                {
+                    <option value="@branch.Value" selected>@branch.Text</option>
+                }
+                else
+                {
+                    <option value="@branch.Value">@branch.Text</option>
+                }
+            }
+        </select>
+        <button type="submit" class="btn btn-pink">Filter</button>
+    </form>
+
+    @if (!Model.Any())
+    {
+        <p class="text-center text-muted">No testimonials yet. Be the first to share your experience!</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var t in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>"@t.Message"</p>
+                                <footer class="blockquote-footer" style="color: white;">@t.CustomerName</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <div class="text-center mt-4">
+        <a asp-action="Create" class="btn btn-purple">Submit Your Testimonial</a>
+    </div>
+</div>

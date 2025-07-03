@@ -1,0 +1,38 @@
+﻿@model IEnumerable<AcrylicGame.Models.Promotion>
+
+@{
+    ViewData["Title"] = "Promotions";
+}
+
+<div class="container my-5 fade-in">
+    <h1 class="text-center mb-4" style="color: var(--primary-pink);">Current Promotions</h1>
+
+    @if (!Model.Any())
+    {
+        <p class="text-center text-muted">No promotions available at the moment. Check back soon!</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var promo in Model)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        @if (!string.IsNullOrEmpty(promo.ImagePath))
+                        {
+                            <img src="@promo.ImagePath" class="card-img-top rounded-top promotion-image" alt="@promo.Title" />
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">@promo.Title</h5>
+                            <p class="card-text">@promo.Description</p>
+                            <p class="text-muted small mb-1">Valid: @promo.ValidFrom.ToString("yyyy-MM-dd") to @promo.ValidTo.ToString("yyyy-MM-dd")</p>
+                            <p class="text-muted small">Branch: @promo.Branch?.Name</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+

@@ -1,0 +1,90 @@
+﻿@model IEnumerable<AcrylicGame.Models.Booking>
+
+@{
+    ViewData["Title"] = "Staff Dashboard";
+}
+
+<div class="container my-5 fade-in">
+    <h1 class="text-center mb-4" style="color: var(--primary-pink);">Staff Dashboard</h1>
+
+    <h4 class="mb-3">Branch Bookings</h4>
+
+    @if (!Model.Any())
+    {
+        <p class="text-muted">No bookings yet for your branch.</p>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Client</th>
+                        <th>Date</th>
+                        <th>Service Description</th>
+                        <th>Proof of Payment</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var booking in Model)
+                    {
+                        <tr>
+                            <td>@booking.CustomerName</td>
+                            <td>@booking.BookingDate.ToShortDateString()</td>
+                            <td>@booking.ServiceDescription</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(booking.ProofOfPaymentPath))
+                                {
+                                    <a href="@booking.ProofOfPaymentPath" target="_blank" class="btn btn-sm btn-purple">View</a>
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Not uploaded</span>
+                                }
+                            </td>
+                            <td>
+                                @if (booking.IsConfirmedByStaff)
+                                {
+                                    <span class="badge bg-success">Confirmed</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning text-dark">Pending</span>
+                                }
+                            </td>
+                            <td>
+                                @if (!booking.IsConfirmedByStaff)
+                                {
+                                    <form asp-action="ConfirmBooking" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@booking.Id" />
+                                        <button type="submit" class="btn btn-sm btn-pink">Confirm</button>
+                                    </form>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+
+    <h4 class="mt-5 mb-3">Pending Testimonials</h4>
+
+    @if (ViewBag.Testimonials == null || !((List<AcrylicGame.Models.Testimonial>)ViewBag.Testimonials).Any())
+    {
+        <p class="text-muted">No pending testimonials.</p>
+    }
+    else
+    {
+        <ul class="list-group">
+            @foreach (var t in ViewBag.Testimonials as List<AcrylicGame.Models.Testimonial>)
+            {
+                <li class="list-group-item">
+                    <strong>@t.CustomerName:</strong> @t.Message
+                </li>
+            }
+        </ul>
+    }
+

@@ -1,0 +1,67 @@
+﻿@model AcrylicGame.Models.BookingFormViewModel
+
+@{
+    ViewData["Title"] = "Book an Appointment";
+}
+
+<div class="container my-5 fade-in">
+    <h1 class="text-center mb-4" style="color: var(--primary-pink);">Book Your Appointment</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <form asp-action="Create" method="post" enctype="multipart/form-data" class="bg-white p-4 shadow rounded">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="CustomerName" class="form-label">Full Name</label>
+                    <input asp-for="CustomerName" class="form-control" />
+                    <span asp-validation-for="CustomerName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="form-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Phone" class="form-label">Phone</label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="BookingDate" class="form-label">Booking Date</label>
+                    <input asp-for="BookingDate" type="date" class="form-control" />
+                    <span asp-validation-for="BookingDate" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="BranchId" class="form-label">Branch</label>
+                    <select asp-for="BranchId" asp-items="Model.Branches" class="form-select">
+                        <option value="">Select Branch</option>
+                    </select>
+                    <span asp-validation-for="BranchId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="ServiceDescription">What would you like to do?</label>
+                    <input type="text" name="ServiceDescription" class="form-control" placeholder="E.g., Acrylic fill with nail art" required />
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="ProofOfPayment" class="form-label">Proof of Payment (50% Deposit)</label>
+                    <input asp-for="ProofOfPayment" type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf" />
+                    <span asp-validation-for="ProofOfPayment" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-pink w-100 py-2">Submit Booking</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

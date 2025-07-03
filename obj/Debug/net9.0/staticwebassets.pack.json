@@ -1,0 +1,541 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AcrylicGame.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AcrylicGame.cqe31o2fuz.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\downloads\\Durban_Services(PDF).pdf",
+      "PackagePath": "staticwebassets\\downloads\\Durban_Services(PDF).pdf"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\downloads\\Parkhurst_Services(PDF).pdf",
+      "PackagePath": "staticwebassets\\downloads\\Parkhurst_Services(PDF).pdf"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\downloads\\Rivonia_Services(PDF).pdf",
+      "PackagePath": "staticwebassets\\downloads\\Rivonia_Services(PDF).pdf"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\downloads\\Sunninghill_Services(PDF).pdf",
+      "PackagePath": "staticwebassets\\downloads\\Sunninghill_Services(PDF).pdf"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\facialhero.jpg",
+      "PackagePath": "staticwebassets\\images\\facialhero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\gallery5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\gallery6.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\ig_logo.png",
+      "PackagePath": "staticwebassets\\images\\ig_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\lashes.jpg",
+      "PackagePath": "staticwebassets\\images\\lashes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\logo-banner.png",
+      "PackagePath": "staticwebassets\\images\\logo-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\logo-wide.png",
+      "PackagePath": "staticwebassets\\images\\logo-wide.png"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\nailhero.jpeg",
+      "PackagePath": "staticwebassets\\images\\nailhero.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\nails.jpg",
+      "PackagePath": "staticwebassets\\images\\nails.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\skincare.jpg",
+      "PackagePath": "staticwebassets\\images\\skincare.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\images\\tiktok_logo.png",
+      "PackagePath": "staticwebassets\\images\\tiktok_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\0966985f-98b5-4133-9053-80dacf125d4b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\0966985f-98b5-4133-9053-80dacf125d4b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\1f0c5c76-d244-428e-967c-6a797e845f03.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\1f0c5c76-d244-428e-967c-6a797e845f03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\28077cb7-ba1f-4c87-858b-043d5c368726.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\28077cb7-ba1f-4c87-858b-043d5c368726.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\2fcf8cda-98d4-41c1-90a6-63a929a23412.png",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\2fcf8cda-98d4-41c1-90a6-63a929a23412.png"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\3465f386-025a-4cc1-b682-31bedce580ff.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\3465f386-025a-4cc1-b682-31bedce580ff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\34fa8cc6-03b7-45d7-9d47-cfb65e3072f7.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\34fa8cc6-03b7-45d7-9d47-cfb65e3072f7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\3d2d2c04-2c8c-4b61-80e6-3ab675dd0a2b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\3d2d2c04-2c8c-4b61-80e6-3ab675dd0a2b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\461e6792-4e83-4816-9c9b-882e10ca7ebb.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\461e6792-4e83-4816-9c9b-882e10ca7ebb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\479e7f66-1f9d-4d24-bdcf-6d3c07731b92.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\479e7f66-1f9d-4d24-bdcf-6d3c07731b92.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\4b82ef62-b57d-4253-87f6-06e0e645a1bd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\4b82ef62-b57d-4253-87f6-06e0e645a1bd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\4cca37d9-f8aa-452d-b0d2-aca46ff4a485.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\4cca37d9-f8aa-452d-b0d2-aca46ff4a485.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\4ebb6116-d719-4552-b25e-f81ab0d00283.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\4ebb6116-d719-4552-b25e-f81ab0d00283.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\56735597-284e-4eb2-9310-765fdcd8c5ea.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\56735597-284e-4eb2-9310-765fdcd8c5ea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\58647b67-23f6-4399-8bac-fe2ee5bfb492.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\58647b67-23f6-4399-8bac-fe2ee5bfb492.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\60a284fa-1ec1-41a3-aadc-b090a0f2f248.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\60a284fa-1ec1-41a3-aadc-b090a0f2f248.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\6129edad-c94e-430a-960e-aa22fb66bab9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\6129edad-c94e-430a-960e-aa22fb66bab9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\7c18ab5a-4f6f-4cab-b077-91051db6df71.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\7c18ab5a-4f6f-4cab-b077-91051db6df71.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\834cff4d-d463-4f4c-9e38-43c3a324b5ee.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\834cff4d-d463-4f4c-9e38-43c3a324b5ee.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\86b4cdc3-b79f-4063-bf9a-5e1bb51ac209.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\86b4cdc3-b79f-4063-bf9a-5e1bb51ac209.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\8d1c860a-6735-4576-9e73-97c682315ae4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\8d1c860a-6735-4576-9e73-97c682315ae4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\8ecda9c3-0383-4586-992e-a3cb6b8d6c61.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\8ecda9c3-0383-4586-992e-a3cb6b8d6c61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\9f24083c-f75c-4ea4-913c-8c5e39955638.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\9f24083c-f75c-4ea4-913c-8c5e39955638.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\a2806d0e-b501-4ed5-aa7a-c86dc94aee98.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\a2806d0e-b501-4ed5-aa7a-c86dc94aee98.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\ae484d27-3f75-4297-baef-b69f10a17b84.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\ae484d27-3f75-4297-baef-b69f10a17b84.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\bef8ba54-da4c-46d7-acb3-13d6d8b5348f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\bef8ba54-da4c-46d7-acb3-13d6d8b5348f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\cbdc3a16-6cac-40ae-a17c-fa8836801690.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\cbdc3a16-6cac-40ae-a17c-fa8836801690.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\e2281704-0442-4448-adf9-296aa605869c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\e2281704-0442-4448-adf9-296aa605869c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\f2272d65-eb80-4d1b-bdf9-c32dfe3ccb92.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\f2272d65-eb80-4d1b-bdf9-c32dfe3ccb92.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\gallery\\f91b60e5-7ce9-4e83-943d-cd1d4888da90.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gallery\\f91b60e5-7ce9-4e83-943d-cd1d4888da90.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\payments\\0a1fdc78-232a-4a56-8f0a-809196755e20.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\payments\\0a1fdc78-232a-4a56-8f0a-809196755e20.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\payments\\f66f6584-2120-4956-a77a-8e3de486606d.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\payments\\f66f6584-2120-4956-a77a-8e3de486606d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\16b3d82a-5b15-4ec8-b35d-355e5dd4bb24.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\16b3d82a-5b15-4ec8-b35d-355e5dd4bb24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\295c90d6-664d-477f-aaac-604f6ab001c7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\295c90d6-664d-477f-aaac-604f6ab001c7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\2b66fe61-9c68-41f0-bd26-6aa1717d3951.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\2b66fe61-9c68-41f0-bd26-6aa1717d3951.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\2c7a26e9-bbd7-479b-8be7-02382c19d00b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\2c7a26e9-bbd7-479b-8be7-02382c19d00b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\655ba69b-0d74-455a-99b6-7eb483dd5e44.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\655ba69b-0d74-455a-99b6-7eb483dd5e44.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\687be96d-00a4-4a4b-bd55-6f43ef3fffa0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\687be96d-00a4-4a4b-bd55-6f43ef3fffa0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\6f7fa159-2403-4f1f-af5b-56ae38ccb628.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\6f7fa159-2403-4f1f-af5b-56ae38ccb628.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\7000c5b1-1abb-4c84-bec6-5b3a09217ebf.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\7000c5b1-1abb-4c84-bec6-5b3a09217ebf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\73202b34-b006-42ed-bf52-b8f215b47699.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\73202b34-b006-42ed-bf52-b8f215b47699.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\b069440a-ba7c-45d0-a946-7ca19026618a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\b069440a-ba7c-45d0-a946-7ca19026618a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\b4eafcae-b1fc-4e23-b519-9d39d976221f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\b4eafcae-b1fc-4e23-b519-9d39d976221f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\b652131b-877d-496a-b28c-f24e6b44ca6f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\b652131b-877d-496a-b28c-f24e6b44ca6f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\c6a71db9-7a16-4a8b-9b94-ca1b1b9c2a34.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\c6a71db9-7a16-4a8b-9b94-ca1b1b9c2a34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\manga\\source\\repos\\AcrylicGame\\AcrylicGame\\wwwroot\\uploads\\promotions\\c9cf810e-f4bc-4ff4-890e-243154ba7034.jpg",
+      "PackagePath": "staticwebassets\\uploads\\promotions\\c9cf810e-f4bc-4ff4-890e-243154ba7034.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AcrylicGame.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AcrylicGame.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.AcrylicGame.props",
+      "PackagePath": "build\\AcrylicGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.AcrylicGame.props",
+      "PackagePath": "buildMultiTargeting\\AcrylicGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.AcrylicGame.props",
+      "PackagePath": "buildTransitive\\AcrylicGame.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

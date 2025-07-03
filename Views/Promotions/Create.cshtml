@@ -1,0 +1,53 @@
+﻿@model AcrylicGame.Models.PromotionUploadViewModel
+
+@{
+    ViewData["Title"] = "Create Promotion";
+}
+
+<div class="container my-5 fade-in">
+    <h1 class="text-center mb-4" style="color: var(--primary-pink);">Upload New Promotion</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <form asp-action="Create" method="post" enctype="multipart/form-data" class="bg-white p-4 shadow rounded">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Title" class="form-label">Title</label>
+                    <input asp-for="Title" class="form-control" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Description" class="form-label">Description</label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="ValidFrom" class="form-label">Valid From</label>
+                    <input asp-for="ValidFrom" type="date" class="form-control" />
+                    <span asp-validation-for="ValidFrom" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="ValidTo" class="form-label">Valid To</label>
+                    <input asp-for="ValidTo" type="date" class="form-control" />
+                    <span asp-validation-for="ValidTo" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="Image" class="form-label">Image</label>
+                    <input asp-for="Image" type="file" class="form-control" />
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-pink w-100 py-2">Upload Promotion</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Policies & Privacy";
+}
+
+<div class="container my-5 fade-in">
+    <h1 class="text-center mb-5" style="color: var(--primary-pink);">Policies & Privacy</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+
+            <!-- Cancellation Policy -->
+            <div class="card mb-4 shadow-sm border-0">
+                <div class="card-body">
+                    <h3 class="fw-bold mb-3" style="color: var(--primary-pink);"><i class="bi bi-calendar-x"></i> Cancellation Policy</h3>
+                    <p>We adhere to a strict <strong>12-hour cancellation policy</strong>. If your appointment is not cancelled within those hours, you will be charged <strong>50% cancellation cost</strong> from the service that was booked.</p>
+                    <p>If you book more than one treatment and choose to cancel, please advise at least 12 hours in advance. Leaving out a treatment at the appointment without notice will result in being charged for it.</p>
+                </div>
+            </div>
+
+            <!-- No Shows -->
+            <div class="card mb-4 shadow-sm border-0">
+                <div class="card-body">
+                    <h3 class="fw-bold mb-3" style="color: var(--primary-pink);"><i class="bi bi-person-x"></i> No Shows</h3>
+                    <p>Not showing up to your appointment isn't kind. We respect your time; you should respect ours. You will be charged <strong>100% of your booked appointment</strong>, which must be settled before making another appointment.</p>
+                </div>
+            </div>
+
+            <!-- Refunds & Repairs -->
+            <div class="card mb-4 shadow-sm border-0">
+                <div class="card-body">
+                    <h3 class="fw-bold mb-3" style="color: var(--primary-pink);"><i class="bi bi-cash"></i> Refunds & Repairs</h3>
+                    <p>We hold a strict <strong>no refund policy</strong>. If you are unhappy with your treatment, please address it with management before leaving the appointment as it will be deemed satisfactory if not mentioned.</p>
+                    <p>Redos will only be done if brought to our attention within <strong>5 days</strong> of your appointment.</p>
+                    <p><em>*We will accommodate lifting or chipping of nails only for a repair.</em></p>
+                </div>
+            </div>
+
+            <!-- Privacy Policy -->
+            <div class="card mb-4 shadow-sm border-0">
+                <div class="card-body">
+                    <h3 class="fw-bold mb-3" style="color: var(--primary-pink);"><i class="bi bi-shield-lock"></i> Privacy Policy</h3>
+                    <p>Your personal information is collected solely for booking, communication, and service enhancement purposes. We do not share your data with third parties without your consent. All payment information is handled securely through our verified payment gateways.</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a asp-controller="Home" asp-action="Index" class="btn btn-pink px-4 py-2">Back to Home</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <style>
+        .fade-in {
+            animation: fadeInUp 0.8s ease-in-out both;
+        }
+
+        i.bi {
+            margin-right: 8px;
+        }
+    </style>
+}

@@ -1,0 +1,119 @@
+﻿@{
+    ViewData["Title"] = "Welcome to Acrylic Game";
+}
+
+<!-- Hero Section -->
+<div class="hero-banner-image fade-in">
+    <div class="hero-overlay-text">
+        <h1 class="hero-heading-small">Welcome to Acrylic Game</h1>
+        <p class="hero-subheading-small">Get Your Game Up <strong>Here.</strong></p>
+        <a class="btn hero-button" style="background-color: var(--primary-pink); color: white;" asp-area="Identity" asp-page="/Account/Register">Register Now!</a>
+    </div>
+</div>
+
+<!-- Service Cards Preview -->
+<div class="container my-5 fade-in">
+    <h3 class="text-center mb-4" style="color: var(--primary-pink);">Our Core Services</h3>
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+                <img src="~/images/nails.jpg" class="card-img-top rounded-top" style="height:200px; object-fit:cover;" alt="Nails Service" />
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Nails</h5>
+                    <p class="card-text">Acrylics, Gel, Nail Art & More</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+                <img src="~/images/lashes.jpg" class="card-img-top rounded-top" style="height:200px; object-fit:cover;" alt="Lashes Service" />
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Lashes</h5>
+                    <p class="card-text">Extensions, Volume, and Tinting</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+                <img src="~/images/skincare.jpg" class="card-img-top rounded-top" style="height:200px; object-fit:cover;" alt="Skincare Service" />
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Skincare</h5>
+                    <p class="card-text">Glow-ups, Hydration & Facials</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Gallery Feed Preview -->
+<div class="container my-5 fade-in">
+    <h3 class="text-center mb-4" style="color: var(--primary-pink);">Latest From Our Gallery</h3>
+    <div class="row g-2">
+        @for (int i = 1; i <= 6; i++)
+        {
+            <div class="col-6 col-md-2">
+                <img src="@Url.Content($"~/images/gallery{i}.jpg")" class="img-fluid rounded shadow-sm" alt="Gallery Preview @i" />
+            </div>
+        }
+    </div>
+    <div class="text-center mt-3">
+        <a asp-controller="Gallery" asp-action="Index" class="btn btn-purple">View Full Gallery</a>
+    </div>
+</div>
+
+<!-- Testimonials Carousel -->
+<div class="container my-5 fade-in">
+    <h3 class="text-center mb-4" style="color: var(--primary-pink);">What Clients Are Saying</h3>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+                <blockquote class="blockquote mx-auto" style="max-width: 600px;">
+                    <p class="mb-3">"Best nail experience ever! Obsessed!"</p>
+                    <footer class="blockquote-footer" style="color: white;">Zinhle M.</footer>
+                </blockquote>
+            </div>
+            <div class="carousel-item">
+                <blockquote class="blockquote mx-auto" style="max-width: 600px;">
+                    <p class="mb-3">"The skincare facial made me feel brand new."</p>
+                    <footer class="blockquote-footer" style="color: white;">Mpho L.</footer>
+                </blockquote>
+            </div>
+            <div class="carousel-item">
+                <blockquote class="blockquote mx-auto" style="max-width: 600px;">
+                    <p class="mb-3">"My lashes look amazing, thank you!"</p>
+                    <footer class="blockquote-footer" style="color: white;">Anele K.</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer Buttons -->
+<div class="text-center mt-5 mb-4 fade-in">
+    <a href="https://www.instagram.com/acrylic_game_durban/?hl=en" target="_blank" class="btn btn-outline-dark me-2 d-inline-flex align-items-center gap-2">
+        <img src="~/images/ig_logo.png" alt="Instagram" width="20" height="20" />
+        Instagram(Durban)
+    </a>
+
+    <a href="https://www.instagram.com/acrylicgame_rivoniajunction?igsh=YTJ4aTR2bWwybnV6" target="_blank" class="btn btn-outline-dark me-2 d-inline-flex align-items-center gap-2">
+        <img src="~/images/ig_logo.png" alt="Instagram" width="20" height="20" />
+        Instagram(Rivonia)
+    </a>
+
+    <a href="https://www.instagram.com/acrylic_game_sunninghill?igsh=bnE1b29qdzV4Nzdz" target="_blank" class="btn btn-outline-dark me-2 d-inline-flex align-items-center gap-2">
+        <img src="~/images/ig_logo.png" alt="Instagram" width="20" height="20" />
+        Instagram(Sunninghill)
+    </a>
+
+    <a href="https://www.instagram.com/acrylic_game_parkhurst?igsh=MWpqcTEzbm9oYWc5NQ==" target="_blank" class="btn btn-outline-dark me-2 d-inline-flex align-items-center gap-2">
+        <img src="~/images/ig_logo.png" alt="Instagram" width="20" height="20" />
+        Instagram(Parkhurst)
+    </a>
+
+    <a href="https://www.tiktok.com/@@acrylic_game" target="_blank" class="btn btn-outline-dark me-2 d-inline-flex align-items-center gap-2">
+        <img src="~/images/tiktok_logo.png" alt="TikTok" width="20" height="20" />
+        TikTok
+    </a>
+
+</div>

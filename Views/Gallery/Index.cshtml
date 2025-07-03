@@ -1,0 +1,43 @@
+﻿@model IEnumerable<AcrylicGame.Models.GalleryItem>
+
+@{
+    ViewData["Title"] = "Gallery";
+}
+
+<div class="container my-5 fade-in">
+    <h1 class="text-center mb-4" style="color: var(--primary-pink);">Our Gallery</h1>
+
+    <form method="get" asp-action="Index" class="text-center mb-4">
+        <select name="branchId" class="form-select w-auto d-inline-block me-2">
+            <option value="">All Branches</option>
+            @foreach (var branch in ViewBag.Branches as SelectList)
+            {
+                var isSelected = ViewBag.SelectedBranchId != null && branch.Value == ViewBag.SelectedBranchId.ToString();
+                <option value="@branch.Value" selected="@isSelected">@branch.Text</option>
+            }
+        </select>
+        <button type="submit" class="btn btn-pink">Filter</button>
+    </form>
+
+    @if (!Model.Any())
+    {
+        <p class="text-center text-muted">No gallery items to display.</p>
+    }
+    else
+    {
+        <div class="row g-3">
+            @foreach (var item in Model)
+            {
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="@item.ImagePath" alt="@item.Caption" class="card-img-top rounded gallery-image" />
+                        <div class="card-body p-2">
+                            <p class="card-text small text-center">@item.Caption</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
